@@ -4,6 +4,20 @@ body {
   font-size: 10px;
 }
 
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.content h1 {
+  font-size: 1rem;
+  color: #000;
+}
+
+.content h3 {
+  font-size: .75rem;
+  color: #fff;
+}
+
 .container {
   margin: 0 auto;
   width: 420px;
@@ -16,6 +30,12 @@ nav {
   width: 420px;
 }
 
-.restaurant-list {
+.restaurant-list div {
   padding-top: 50px;
+  width: 100%;
+
+}
+
+.location:hover {
+  background-color: yellow;
 }
